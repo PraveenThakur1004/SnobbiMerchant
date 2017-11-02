@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0405AD421F8DFB5F003BEFD2 /* Sunflower-Highway.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0405AD411F8DFB5F003BEFD2 /* Sunflower-Highway.otf */; };
+		040958EF1F873EC500337E76 /* Profile+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040958EE1F873EC500337E76 /* Profile+Extension.swift */; };
+		040958F11F875FAF00337E76 /* AddAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040958F01F875FAF00337E76 /* AddAddressViewController.swift */; };
+		040958F31F8787C700337E76 /* EditMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040958F21F8787C700337E76 /* EditMenuVC.swift */; };
+		042ABD851F85FC880021396A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042ABD841F85FC880021396A /* Extensions.swift */; };
+		042ABD871F85FD630021396A /* ManageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042ABD861F85FD630021396A /* ManageMenu.swift */; };
+		042ABD891F85FDF50021396A /* ManageMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042ABD881F85FDF50021396A /* ManageMenuCell.swift */; };
+		042ABD8C1F8639210021396A /* MenuAddMoreCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042ABD8B1F8639210021396A /* MenuAddMoreCategoryVC.swift */; };
+		04422BF71F94971E00881EFB /* ManageMenu+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04422BF61F94971E00881EFB /* ManageMenu+Extension.swift */; };
+		04422BF91F94C15600881EFB /* EditMenuVC+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04422BF81F94C15600881EFB /* EditMenuVC+Extension.swift */; };
+		044CA4451F6BD189002BDF67 /* SubsettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CA4441F6BD189002BDF67 /* SubsettingVC.swift */; };
+		04744F2C1F6F857F007EFA78 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04744F2B1F6F857F007EFA78 /* ChangePasswordVC.swift */; };
+		04BBAF051F70DB830037149D /* SettingVC+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BBAF041F70DB830037149D /* SettingVC+Extension.swift */; };
+		04D62F051F70FEC8000319BD /* ShowUserFeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D62F041F70FEC8000319BD /* ShowUserFeedbackVC.swift */; };
+		04D62F071F7101A0000319BD /* UserFeedbackCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D62F061F7101A0000319BD /* UserFeedbackCellTableViewCell.swift */; };
+		04E76AC91F87941100D21EAB /* MenuAddCategory +Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E76AC81F87941100D21EAB /* MenuAddCategory +Extension.swift */; };
+		04E87A3E1F8F497900907A05 /* CouponDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E87A3D1F8F497900907A05 /* CouponDetailVC.swift */; };
+		04E87A401F8F49AC00907A05 /* CouponCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E87A3F1F8F49AC00907A05 /* CouponCell.swift */; };
+		04E87A421F8F964200907A05 /* MenuAddItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E87A411F8F964200907A05 /* MenuAddItem.swift */; };
+		04ED8E3E1F9054FD00F352EA /* ManageMenuHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ED8E3D1F9054FD00F352EA /* ManageMenuHeaderView.xib */; };
+		04ED8E401F90843B00F352EA /* MangeMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED8E3F1F90843B00F352EA /* MangeMenuHeaderView.swift */; };
+		04ED8E421F90845100F352EA /* ManageMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED8E411F90845100F352EA /* ManageMenuVC.swift */; };
+		04ED8E431F90AA4B00F352EA /* ManageCoupon_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E87A351F8F33E400907A05 /* ManageCoupon_VC.swift */; };
+		7CAF15D71F67CF4F008668B6 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF15D61F67CF4F008668B6 /* SettingVC.swift */; };
+		7CAF15D91F67CF69008668B6 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF15D81F67CF69008668B6 /* ProfileVC.swift */; };
+		7CB11C391F680BDF00102C1F /* OrderDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB11C381F680BDF00102C1F /* OrderDetailCell.swift */; };
+		7CB224461F68E4F4009F7A1D /* TextFieldValidationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB224451F68E4F4009F7A1D /* TextFieldValidationsManager.swift */; };
+		7CB224481F68E503009F7A1D /* AlertControllerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB224471F68E503009F7A1D /* AlertControllerManager.swift */; };
+		7CB2244A1F68E50F009F7A1D /* WebserviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB224491F68E50F009F7A1D /* WebserviceManager.swift */; };
+		7CB2244D1F68E578009F7A1D /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB2244C1F68E578009F7A1D /* Restaurant.swift */; };
+		7CB2244F1F68EB67009F7A1D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB2244E1F68EB67009F7A1D /* Utils.swift */; };
+		7CB224511F68ED5C009F7A1D /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB224501F68ED5C009F7A1D /* Singleton.swift */; };
+		7CB224531F68F297009F7A1D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB224521F68F297009F7A1D /* Constants.swift */; };
+		7CB224551F68FD35009F7A1D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB224541F68FD35009F7A1D /* UserNotifications.framework */; };
+		7CC918E61F67DA3E0059CD81 /* restaurant1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7CC918E51F67DA3E0059CD81 /* restaurant1.jpeg */; };
+		7CC918EC1F67F5020059CD81 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC918EB1F67F5020059CD81 /* OrderCell.swift */; };
+		7CE3E1B01F679719008FA002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3E1AF1F679719008FA002 /* AppDelegate.swift */; };
+		7CE3E1B51F679719008FA002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE3E1B31F679719008FA002 /* Main.storyboard */; };
+		7CE3E1B71F679719008FA002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE3E1B61F679719008FA002 /* Assets.xcassets */; };
+		7CE3E1BA1F679719008FA002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE3E1B81F679719008FA002 /* LaunchScreen.storyboard */; };
+		7CE3E1C61F679AAB008FA002 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3E1C51F679AAB008FA002 /* SignInVC.swift */; };
+		7CE3E1C81F679B22008FA002 /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3E1C71F679B22008FA002 /* ForgetPasswordVC.swift */; };
+		7CE3E1CE1F679BA4008FA002 /* HostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3E1CD1F679BA4008FA002 /* HostViewController.swift */; };
+		7CE3E1D01F679BC9008FA002 /* NavigationMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3E1CF1F679BC9008FA002 /* NavigationMenuViewController.swift */; };
+		7CE3E1D21F679E24008FA002 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE3E1D11F679E24008FA002 /* Menu.storyboard */; };
+		959F9F36D4F13D03AD8C6E67 /* Pods_SnobbiMerchantSide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB5D58A2E3036F288733558 /* Pods_SnobbiMerchantSide.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0405AD411F8DFB5F003BEFD2 /* Sunflower-Highway.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sunflower-Highway.otf"; sourceTree = "<group>"; };
+		040958EE1F873EC500337E76 /* Profile+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Profile+Extension.swift"; sourceTree = "<group>"; };
+		040958F01F875FAF00337E76 /* AddAddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAddressViewController.swift; sourceTree = "<group>"; };
+		040958F21F8787C700337E76 /* EditMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMenuVC.swift; sourceTree = "<group>"; };
+		042ABD841F85FC880021396A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		042ABD861F85FD630021396A /* ManageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageMenu.swift; sourceTree = "<group>"; };
+		042ABD881F85FDF50021396A /* ManageMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageMenuCell.swift; sourceTree = "<group>"; };
+		042ABD8A1F86118C0021396A /* SnobbiMerchantSide.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SnobbiMerchantSide.entitlements; sourceTree = "<group>"; };
+		042ABD8B1F8639210021396A /* MenuAddMoreCategoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuAddMoreCategoryVC.swift; sourceTree = "<group>"; };
+		04422BF61F94971E00881EFB /* ManageMenu+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ManageMenu+Extension.swift"; sourceTree = "<group>"; };
+		04422BF81F94C15600881EFB /* EditMenuVC+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditMenuVC+Extension.swift"; sourceTree = "<group>"; };
+		044CA4441F6BD189002BDF67 /* SubsettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubsettingVC.swift; sourceTree = "<group>"; };
+		04744F2B1F6F857F007EFA78 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		04BBAF041F70DB830037149D /* SettingVC+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SettingVC+Extension.swift"; sourceTree = "<group>"; };
+		04D62F041F70FEC8000319BD /* ShowUserFeedbackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowUserFeedbackVC.swift; sourceTree = "<group>"; };
+		04D62F061F7101A0000319BD /* UserFeedbackCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFeedbackCellTableViewCell.swift; sourceTree = "<group>"; };
+		04E76AC81F87941100D21EAB /* MenuAddCategory +Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MenuAddCategory +Extension.swift"; sourceTree = "<group>"; };
+		04E87A351F8F33E400907A05 /* ManageCoupon_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageCoupon_VC.swift; sourceTree = "<group>"; };
+		04E87A3D1F8F497900907A05 /* CouponDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponDetailVC.swift; sourceTree = "<group>"; };
+		04E87A3F1F8F49AC00907A05 /* CouponCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponCell.swift; sourceTree = "<group>"; };
+		04E87A411F8F964200907A05 /* MenuAddItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuAddItem.swift; sourceTree = "<group>"; };
+		04ED8E3D1F9054FD00F352EA /* ManageMenuHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ManageMenuHeaderView.xib; sourceTree = "<group>"; };
+		04ED8E3F1F90843B00F352EA /* MangeMenuHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MangeMenuHeaderView.swift; sourceTree = "<group>"; };
+		04ED8E411F90845100F352EA /* ManageMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageMenuVC.swift; sourceTree = "<group>"; };
+		2CD9CFDB726A50143E5C58CC /* Pods-SnobbiMerchantSide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnobbiMerchantSide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnobbiMerchantSide/Pods-SnobbiMerchantSide.debug.xcconfig"; sourceTree = "<group>"; };
+		682322362F332691624A9742 /* Pods-SnobbiMerchantSide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnobbiMerchantSide.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnobbiMerchantSide/Pods-SnobbiMerchantSide.release.xcconfig"; sourceTree = "<group>"; };
+		7CAF15D61F67CF4F008668B6 /* SettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		7CAF15D81F67CF69008668B6 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		7CB11C381F680BDF00102C1F /* OrderDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailCell.swift; sourceTree = "<group>"; };
+		7CB224451F68E4F4009F7A1D /* TextFieldValidationsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldValidationsManager.swift; sourceTree = "<group>"; };
+		7CB224471F68E503009F7A1D /* AlertControllerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertControllerManager.swift; sourceTree = "<group>"; };
+		7CB224491F68E50F009F7A1D /* WebserviceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebserviceManager.swift; sourceTree = "<group>"; };
+		7CB2244C1F68E578009F7A1D /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		7CB2244E1F68EB67009F7A1D /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		7CB224501F68ED5C009F7A1D /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		7CB224521F68F297009F7A1D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7CB224541F68FD35009F7A1D /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		7CC918E51F67DA3E0059CD81 /* restaurant1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = restaurant1.jpeg; sourceTree = "<group>"; };
+		7CC918EB1F67F5020059CD81 /* OrderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		7CE3E1AC1F679719008FA002 /* SnobbiMerchantSide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnobbiMerchantSide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE3E1AF1F679719008FA002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CE3E1B41F679719008FA002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CE3E1B61F679719008FA002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CE3E1B91F679719008FA002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CE3E1BB1F679719008FA002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CE3E1C51F679AAB008FA002 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		7CE3E1C71F679B22008FA002 /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
+		7CE3E1CD1F679BA4008FA002 /* HostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostViewController.swift; sourceTree = "<group>"; };
+		7CE3E1CF1F679BC9008FA002 /* NavigationMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationMenuViewController.swift; sourceTree = "<group>"; };
+		7CE3E1D11F679E24008FA002 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		9EB5D58A2E3036F288733558 /* Pods_SnobbiMerchantSide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnobbiMerchantSide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CE3E1A91F679719008FA002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB224551F68FD35009F7A1D /* UserNotifications.framework in Frameworks */,
+				959F9F36D4F13D03AD8C6E67 /* Pods_SnobbiMerchantSide.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042ABD7F1F85FA0D0021396A /* ManageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				04ED8E411F90845100F352EA /* ManageMenuVC.swift */,
+				04422BF61F94971E00881EFB /* ManageMenu+Extension.swift */,
+				04ED8E3F1F90843B00F352EA /* MangeMenuHeaderView.swift */,
+				042ABD8B1F8639210021396A /* MenuAddMoreCategoryVC.swift */,
+				04E76AC81F87941100D21EAB /* MenuAddCategory +Extension.swift */,
+				040958F21F8787C700337E76 /* EditMenuVC.swift */,
+				04422BF81F94C15600881EFB /* EditMenuVC+Extension.swift */,
+			);
+			name = ManageMenu;
+			sourceTree = "<group>";
+		};
+		04744F2D1F6F8A5F007EFA78 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0405AD411F8DFB5F003BEFD2 /* Sunflower-Highway.otf */,
+				7CB2244E1F68EB67009F7A1D /* Utils.swift */,
+				042ABD841F85FC880021396A /* Extensions.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		04BBAF061F70DBE80037149D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				044CA4441F6BD189002BDF67 /* SubsettingVC.swift */,
+				04BBAF041F70DB830037149D /* SettingVC+Extension.swift */,
+				7CAF15D61F67CF4F008668B6 /* SettingVC.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		04D62F011F70FE7C000319BD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7CAF15D81F67CF69008668B6 /* ProfileVC.swift */,
+				04744F2B1F6F857F007EFA78 /* ChangePasswordVC.swift */,
+				04D62F041F70FEC8000319BD /* ShowUserFeedbackVC.swift */,
+				040958EE1F873EC500337E76 /* Profile+Extension.swift */,
+				040958F01F875FAF00337E76 /* AddAddressViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		04E87A321F8F335D00907A05 /* Coupon */ = {
+			isa = PBXGroup;
+			children = (
+				04E87A351F8F33E400907A05 /* ManageCoupon_VC.swift */,
+				04E87A3D1F8F497900907A05 /* CouponDetailVC.swift */,
+			);
+			name = Coupon;
+			sourceTree = "<group>";
+		};
+		6F66D6BC685946196FE0D607 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CB224541F68FD35009F7A1D /* UserNotifications.framework */,
+				9EB5D58A2E3036F288733558 /* Pods_SnobbiMerchantSide.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CB224441F68E4B8009F7A1D /* API's */ = {
+			isa = PBXGroup;
+			children = (
+				7CB224471F68E503009F7A1D /* AlertControllerManager.swift */,
+				7CB224451F68E4F4009F7A1D /* TextFieldValidationsManager.swift */,
+				7CB224491F68E50F009F7A1D /* WebserviceManager.swift */,
+				7CB224501F68ED5C009F7A1D /* Singleton.swift */,
+			);
+			name = "API's";
+			sourceTree = "<group>";
+		};
+		7CB2244B1F68E56E009F7A1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7CB2244C1F68E578009F7A1D /* Restaurant.swift */,
+				7CB224521F68F297009F7A1D /* Constants.swift */,
+				042ABD861F85FD630021396A /* ManageMenu.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7CC918E41F67D9E50059CD81 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7CC918E51F67DA3E0059CD81 /* restaurant1.jpeg */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		7CC918EA1F67F2EB0059CD81 /* TableViewCell's */ = {
+			isa = PBXGroup;
+			children = (
+				7CC918EB1F67F5020059CD81 /* OrderCell.swift */,
+				7CB11C381F680BDF00102C1F /* OrderDetailCell.swift */,
+				04D62F061F7101A0000319BD /* UserFeedbackCellTableViewCell.swift */,
+				042ABD881F85FDF50021396A /* ManageMenuCell.swift */,
+				04E87A3F1F8F49AC00907A05 /* CouponCell.swift */,
+				04E87A411F8F964200907A05 /* MenuAddItem.swift */,
+			);
+			name = "TableViewCell's";
+			sourceTree = "<group>";
+		};
+		7CE3E1A31F679719008FA002 = {
+			isa = PBXGroup;
+			children = (
+				7CE3E1AE1F679719008FA002 /* SnobbiMerchantSide */,
+				7CE3E1AD1F679719008FA002 /* Products */,
+				C3566CBEB501E01B70F61F0C /* Pods */,
+				6F66D6BC685946196FE0D607 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CE3E1AD1F679719008FA002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CE3E1AC1F679719008FA002 /* SnobbiMerchantSide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CE3E1AE1F679719008FA002 /* SnobbiMerchantSide */ = {
+			isa = PBXGroup;
+			children = (
+				042ABD8A1F86118C0021396A /* SnobbiMerchantSide.entitlements */,
+				04744F2D1F6F8A5F007EFA78 /* Utility */,
+				7CB2244B1F68E56E009F7A1D /* Model */,
+				7CB224441F68E4B8009F7A1D /* API's */,
+				7CC918EA1F67F2EB0059CD81 /* TableViewCell's */,
+				7CE3E1C11F67972F008FA002 /* Vc's */,
+				7CE3E1C21F67974A008FA002 /* Views */,
+				7CC918E41F67D9E50059CD81 /* SupportingFiles */,
+				7CE3E1B61F679719008FA002 /* Assets.xcassets */,
+				7CE3E1BB1F679719008FA002 /* Info.plist */,
+			);
+			path = SnobbiMerchantSide;
+			sourceTree = "<group>";
+		};
+		7CE3E1C11F67972F008FA002 /* Vc's */ = {
+			isa = PBXGroup;
+			children = (
+				7CE3E1C31F679A6E008FA002 /* Base */,
+				7CE3E1C41F679A77008FA002 /* Menu */,
+			);
+			name = "Vc's";
+			sourceTree = "<group>";
+		};
+		7CE3E1C21F67974A008FA002 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CE3E1B81F679719008FA002 /* LaunchScreen.storyboard */,
+				04ED8E3D1F9054FD00F352EA /* ManageMenuHeaderView.xib */,
+				7CE3E1B31F679719008FA002 /* Main.storyboard */,
+				7CE3E1D11F679E24008FA002 /* Menu.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7CE3E1C31F679A6E008FA002 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7CE3E1AF1F679719008FA002 /* AppDelegate.swift */,
+				7CE3E1C51F679AAB008FA002 /* SignInVC.swift */,
+				7CE3E1C71F679B22008FA002 /* ForgetPasswordVC.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		7CE3E1C41F679A77008FA002 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				7CE3E1CD1F679BA4008FA002 /* HostViewController.swift */,
+				7CE3E1CF1F679BC9008FA002 /* NavigationMenuViewController.swift */,
+				7CE3E1CC1F679B8F008FA002 /* MenuContentScreens */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		7CE3E1CC1F679B8F008FA002 /* MenuContentScreens */ = {
+			isa = PBXGroup;
+			children = (
+				04E87A321F8F335D00907A05 /* Coupon */,
+				04D62F011F70FE7C000319BD /* Profile */,
+				04BBAF061F70DBE80037149D /* Settings */,
+				042ABD7F1F85FA0D0021396A /* ManageMenu */,
+			);
+			name = MenuContentScreens;
+			sourceTree = "<group>";
+		};
+		C3566CBEB501E01B70F61F0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CD9CFDB726A50143E5C58CC /* Pods-SnobbiMerchantSide.debug.xcconfig */,
+				682322362F332691624A9742 /* Pods-SnobbiMerchantSide.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CE3E1AB1F679719008FA002 /* SnobbiMerchantSide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CE3E1BE1F679719008FA002 /* Build configuration list for PBXNativeTarget "SnobbiMerchantSide" */;
+			buildPhases = (
+				3DF91866AE7A6933971E69AE /* [CP] Check Pods Manifest.lock */,
+				7CE3E1A81F679719008FA002 /* Sources */,
+				7CE3E1A91F679719008FA002 /* Frameworks */,
+				7CE3E1AA1F679719008FA002 /* Resources */,
+				9A6C0F24BEF89F444435E86B /* [CP] Embed Pods Frameworks */,
+				674AC5CB4A33C81FA022F951 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnobbiMerchantSide;
+			productName = SnobbiMerchantSide;
+			productReference = 7CE3E1AC1F679719008FA002 /* SnobbiMerchantSide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CE3E1A41F679719008FA002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Orem;
+				TargetAttributes = {
+					7CE3E1AB1F679719008FA002 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = EGN97UH5N9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7CE3E1A71F679719008FA002 /* Build configuration list for PBXProject "SnobbiMerchantSide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CE3E1A31F679719008FA002;
+			productRefGroup = 7CE3E1AD1F679719008FA002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CE3E1AB1F679719008FA002 /* SnobbiMerchantSide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CE3E1AA1F679719008FA002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE3E1BA1F679719008FA002 /* LaunchScreen.storyboard in Resources */,
+				7CE3E1D21F679E24008FA002 /* Menu.storyboard in Resources */,
+				7CE3E1B71F679719008FA002 /* Assets.xcassets in Resources */,
+				0405AD421F8DFB5F003BEFD2 /* Sunflower-Highway.otf in Resources */,
+				7CC918E61F67DA3E0059CD81 /* restaurant1.jpeg in Resources */,
+				7CE3E1B51F679719008FA002 /* Main.storyboard in Resources */,
+				04ED8E3E1F9054FD00F352EA /* ManageMenuHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DF91866AE7A6933971E69AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnobbiMerchantSide-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		674AC5CB4A33C81FA022F951 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnobbiMerchantSide/Pods-SnobbiMerchantSide-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A6C0F24BEF89F444435E86B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SnobbiMerchantSide/Pods-SnobbiMerchantSide-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AARatingBar/AARatingBar.framework",
+				"${BUILT_PRODUCTS_DIR}/AZDialogView/AZDialogView.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FTIndicator/FTIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/InteractiveSideMenu/InteractiveSideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AARatingBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AZDialogView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FTIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InteractiveSideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnobbiMerchantSide/Pods-SnobbiMerchantSide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CE3E1A81F679719008FA002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ED8E431F90AA4B00F352EA /* ManageCoupon_VC.swift in Sources */,
+				7CB224461F68E4F4009F7A1D /* TextFieldValidationsManager.swift in Sources */,
+				7CB224511F68ED5C009F7A1D /* Singleton.swift in Sources */,
+				7CB2244D1F68E578009F7A1D /* Restaurant.swift in Sources */,
+				04ED8E421F90845100F352EA /* ManageMenuVC.swift in Sources */,
+				7CC918EC1F67F5020059CD81 /* OrderCell.swift in Sources */,
+				04E87A3E1F8F497900907A05 /* CouponDetailVC.swift in Sources */,
+				04422BF71F94971E00881EFB /* ManageMenu+Extension.swift in Sources */,
+				7CAF15D71F67CF4F008668B6 /* SettingVC.swift in Sources */,
+				7CB2244F1F68EB67009F7A1D /* Utils.swift in Sources */,
+				7CE3E1CE1F679BA4008FA002 /* HostViewController.swift in Sources */,
+				042ABD891F85FDF50021396A /* ManageMenuCell.swift in Sources */,
+				04422BF91F94C15600881EFB /* EditMenuVC+Extension.swift in Sources */,
+				040958F31F8787C700337E76 /* EditMenuVC.swift in Sources */,
+				7CE3E1B01F679719008FA002 /* AppDelegate.swift in Sources */,
+				04ED8E401F90843B00F352EA /* MangeMenuHeaderView.swift in Sources */,
+				04D62F051F70FEC8000319BD /* ShowUserFeedbackVC.swift in Sources */,
+				04D62F071F7101A0000319BD /* UserFeedbackCellTableViewCell.swift in Sources */,
+				04E87A421F8F964200907A05 /* MenuAddItem.swift in Sources */,
+				040958EF1F873EC500337E76 /* Profile+Extension.swift in Sources */,
+				7CAF15D91F67CF69008668B6 /* ProfileVC.swift in Sources */,
+				042ABD871F85FD630021396A /* ManageMenu.swift in Sources */,
+				7CE3E1C81F679B22008FA002 /* ForgetPasswordVC.swift in Sources */,
+				042ABD851F85FC880021396A /* Extensions.swift in Sources */,
+				7CE3E1C61F679AAB008FA002 /* SignInVC.swift in Sources */,
+				04744F2C1F6F857F007EFA78 /* ChangePasswordVC.swift in Sources */,
+				7CB224481F68E503009F7A1D /* AlertControllerManager.swift in Sources */,
+				040958F11F875FAF00337E76 /* AddAddressViewController.swift in Sources */,
+				04BBAF051F70DB830037149D /* SettingVC+Extension.swift in Sources */,
+				7CB11C391F680BDF00102C1F /* OrderDetailCell.swift in Sources */,
+				7CB224531F68F297009F7A1D /* Constants.swift in Sources */,
+				04E87A401F8F49AC00907A05 /* CouponCell.swift in Sources */,
+				7CB2244A1F68E50F009F7A1D /* WebserviceManager.swift in Sources */,
+				042ABD8C1F8639210021396A /* MenuAddMoreCategoryVC.swift in Sources */,
+				044CA4451F6BD189002BDF67 /* SubsettingVC.swift in Sources */,
+				7CE3E1D01F679BC9008FA002 /* NavigationMenuViewController.swift in Sources */,
+				04E76AC91F87941100D21EAB /* MenuAddCategory +Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CE3E1B31F679719008FA002 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CE3E1B41F679719008FA002 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CE3E1B81F679719008FA002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CE3E1B91F679719008FA002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CE3E1BC1F679719008FA002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = EGN97UH5N9;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CE3E1BD1F679719008FA002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = EGN97UH5N9;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CE3E1BF1F679719008FA002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CD9CFDB726A50143E5C58CC /* Pods-SnobbiMerchantSide.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SnobbiMerchantSide/SnobbiMerchantSide.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EGN97UH5N9;
+				INFOPLIST_FILE = SnobbiMerchantSide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orem.SnobbiMerchant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7CE3E1C01F679719008FA002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 682322362F332691624A9742 /* Pods-SnobbiMerchantSide.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SnobbiMerchantSide/SnobbiMerchantSide.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EGN97UH5N9;
+				INFOPLIST_FILE = SnobbiMerchantSide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orem.SnobbiMerchant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CE3E1A71F679719008FA002 /* Build configuration list for PBXProject "SnobbiMerchantSide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE3E1BC1F679719008FA002 /* Debug */,
+				7CE3E1BD1F679719008FA002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CE3E1BE1F679719008FA002 /* Build configuration list for PBXNativeTarget "SnobbiMerchantSide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE3E1BF1F679719008FA002 /* Debug */,
+				7CE3E1C01F679719008FA002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CE3E1A41F679719008FA002 /* Project object */;
+}
